@@ -1,0 +1,102 @@
+
+
+.language {
+  /*background: $thumbnail-bg;*/
+/*   border: 1px solid $border-light-color;*/
+  height: 35px;
+  max-width: 200px;
+  /*padding: 0 10px;*/
+  font-size: 14px;
+  border-radius: 4px;
+  /*display: flex;
+  align-items: center;*/
+  position: relative;
+  overflow: hidden;
+
+  i {
+    vertical-align: 10px;
+
+    &.globe-icon {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      z-index: 2;
+    }
+
+    &.anticon-down {
+      position: absolute;
+      right: 10px;
+      top: -1px;
+      z-index: 2;
+    }
+  }
+
+  .changeLanguage {
+    width: 100%;
+    height: 35px !important;
+    border: none !important;
+    background: #fff !important;
+
+
+    &.ant-select {
+      padding: 0 !important;
+
+      .ant-select-selection {
+        border: none;
+        border-radius: 0;
+        font-size: 13px;
+        height: 35px !important;
+        padding: 0 40px;
+        padding-top: 1px;
+        background: transparent;
+
+        &:focus {
+          box-shadow: none;
+        }
+
+        .ant-select-selection__rendered {
+          height: 35px !important;
+          line-height: 32px;
+          margin: 0;
+
+          .ant-select-selection-selected-value {
+            padding: 0 !important;
+            margin: 0 !important;
+          }
+        }
+
+        .ant-select-arrow {
+          right: 0
+        }
+      }
+    }
+  }
+
+  .ant-select-dropdown {
+    width: 150px !important;
+    left: 0 !important;
+
+    ul {
+      display: block !important;
+
+      li {
+        display: block !important;
+        text-align: left;
+      }
+    }
+  }
+}
+
+body{top:0 !important;} /*Added for google translate*/
+/*For Hiding Google Dropdown*/
+.goog-te-banner-frame {
+  display : none !important; 
+}
+.skiptranslate.goog-te-gadget span{
+  display : none !important; 
+}
+.skiptranslate.goog-te-gadget{
+  font-size: 0px;
+}
+#goog-gt-tt, .goog-te-balloon-frame{display: none !important;} 
+.goog-text-highlight { background: none !important; box-shadow: none !important;}

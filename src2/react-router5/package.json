@@ -1,0 +1,9 @@
+{
+  "name": "@arivaa-react/react-router5",
+  "version": "1.0.0",
+  "dependencies": {
+    "react-router-dom": "^5.2.0",
+    "react": "^17.0.2",
+    "path-to-regexp": "^3.0.0"
+  }
+}

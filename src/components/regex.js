@@ -1,0 +1,1 @@
+export const ALPHANUMERIC_HYPENS=/^[a-z0-9-_]+$/i

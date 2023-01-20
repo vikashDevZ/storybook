@@ -1,0 +1,20 @@
+.tags {
+  display: inline-block;
+  width: 100%;
+  .ant-tag {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .ant-select-selection {
+    border: none;
+  }
+  .ant-select-selection {
+    padding-top: 6px;
+  }
+  .ant-select-focused .ant-select-selection,
+  .ant-select-selection:focus,
+  .ant-select-selection:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
